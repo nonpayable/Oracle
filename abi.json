@@ -1,0 +1,118 @@
+[
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "API",
+				"type": "string"
+			}
+		],
+		"name": "getRequest",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "who",
+				"type": "address"
+			}
+		],
+		"name": "auth",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "url",
+				"type": "string"
+			}
+		],
+		"name": "getValue",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string[]",
+				"name": "_value",
+				"type": "string[]"
+			},
+			{
+				"internalType": "address",
+				"name": "callback",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "_abi",
+				"type": "string"
+			}
+		],
+		"name": "onlyCallback",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "who",
+				"type": "address"
+			}
+		],
+		"name": "revoke",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string[]",
+				"name": "_value",
+				"type": "string[]"
+			},
+			{
+				"internalType": "address",
+				"name": "callback",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "_abi",
+				"type": "string"
+			}
+		],
+		"name": "setValue",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string[]",
+				"name": "_value",
+				"type": "string[]"
+			}
+		],
+		"name": "setValue",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
